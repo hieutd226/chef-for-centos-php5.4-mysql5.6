@@ -1,6 +1,8 @@
-# Chef for CentOS
+# Chef for CentOS with PHP 5.4 and MySQL 5.6
 
-This is a sample chef repository and installation steps document for CentOS6.
+This is a sample chef repository and installation steps document for CentOS6 forked from kohkimakimoto/chef-for-centos.
+
+It will Install PHP 5.4, MySQL 5.6, redis, memcached, and httpd.
 
 At this repository you don't use chef-server.
 You only use chef-solo and git command in the custom bash script `chef-host`.
