@@ -1,6 +1,0 @@
-[submodule "cookbooks/redis"]
-	path = cookbooks/redis
-	url = https://github.com/kenjiskywalker/cookbooks-redis.git
-[submodule "cookbooks/vsftpd"]
-	path = cookbooks/vsftpd
-	url = https://github.com/gchef/vsftpd-cookbook.git
