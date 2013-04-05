@@ -56,6 +56,16 @@ package "tcpdump" do
   not_if "rpm -q tcpdump"
 end
 
+package "expect" do
+  action :install
+  not_if "rpm -q expect"
+end
+
+package "git" do
+  action :install
+  not_if "rpm -q git"
+end
+
 
 #
 # chkconfig

@@ -10,9 +10,9 @@ execute "yum install php" do
   not_if "rpm -q php"
 end
 
-execute "yum install grep php-mysql" do
-  command "yum install -y --enablerepo=remi,epel php-mysql"
-  not_if "rpm -q php-mysql"
+execute "yum install php-mysqlnd" do
+  command "yum install -y --enablerepo=remi php-mysqlnd"
+  not_if "rpm -q php-mysqlnd"
 end
 
 execute "yum install php-pecl-apc" do

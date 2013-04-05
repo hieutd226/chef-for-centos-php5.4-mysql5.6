@@ -6,8 +6,11 @@ run_list(
   "recipe[yum]",
   "recipe[iptables]",
   "recipe[httpd]",
+  "recipe[mysql]",
   "recipe[php]",
-  "recipe[mysql]"
+  "recipe[memcached]",
+  "recipe[redis]",
+  "recipe[vsftpd]"
 )
 
 default_attributes({
