@@ -34,7 +34,7 @@ Following will build your CentOS sever environment in a few steps.
 
 1. Clone this git repository
 
-        # git clone https://github.com/kohkimakimoto/chef-for-centos.git /var/chef
+        # git clone https://github.com/shufo/chef-for-centos-php5.4-mysql5.6.git /var/chef
 
 1. Run chef-solo using following command
 
@@ -44,7 +44,7 @@ Following will build your CentOS sever environment in a few steps.
 
 # See also
 
-The following page is my blog post about it written in Japanese.
+The following page is original blog post about it written in Japanese.
 
 http://kohkimakimoto.hatenablog.com/entry/2013/02/15/121741
 
